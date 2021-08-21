@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Domain.Common;
 using Domain.Enums;
+using Domain.Events;
 using Domain.Interfaces;
 
 namespace Domain.Entities
@@ -51,11 +52,10 @@ namespace Domain.Entities
             get => _done;
             set
             {
-                // TODO: uncomment after adding Domain Events.
-                //if (value == true && _done == false)
-                //{
-                //    DomainEvents.Add(new TodoItemCompletedEvent(this));
-                //}
+                if (value == true && _done == false)
+                {
+                    DomainEvents.Add(new TodoItemCompletedEvent(this));
+                }
 
                 _done = value;
             }
@@ -63,7 +63,6 @@ namespace Domain.Entities
 
         /// <inheritdoc/>
         public ICollection<DomainEvent> DomainEvents { get; set; } = new List<DomainEvent>();
-
 
         // Navigation Fields.
         public TodoList List { get; set; }
