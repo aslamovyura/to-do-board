@@ -2,13 +2,13 @@
 namespace Application.Common.Interfaces
 {
     /// <summary>
-    /// Interface for entities, containing Date/Time.
+    /// Interface for service managing Date/Time.
     /// </summary>
-    public interface IDateTime
+    public interface IDateTimeService
     {
         /// <summary>
         /// Current Data and Time.
         /// </summary>
-        DateTime Now { get; set; }
+        DateTime Now { get; }
     }
 }
