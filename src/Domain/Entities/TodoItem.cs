@@ -10,7 +10,7 @@ namespace Domain.Entities
     /// <summary>
     /// To-Do Item Entity.
     /// </summary>
-    public class TodoItem : AuditableEntity, IHasDomainEnent
+    public class TodoItem : AuditableEntity, IHasDomainEvent
     {
         private bool _done;
 

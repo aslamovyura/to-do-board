@@ -6,7 +6,7 @@ namespace Domain.Interfaces
     /// <summary>
     /// Interface for entities with Domain Events.
     /// </summary>
-    public interface IHasDomainEnent
+    public interface IHasDomainEvent
     {
         /// <summary>
         /// Collection of Entity Domain Events.
