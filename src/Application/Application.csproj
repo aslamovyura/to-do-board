@@ -22,6 +22,7 @@
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Models\" />
     <Folder Include="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
+    <Folder Include="Common\Behaviours\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore" />
@@ -43,6 +44,7 @@
     <None Remove="Common\Exceptions\" />
     <None Remove="Common\Models\" />
     <None Remove="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
+    <None Remove="Common\Behaviours\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
