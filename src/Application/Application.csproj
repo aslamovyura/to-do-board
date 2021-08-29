@@ -11,11 +11,20 @@
     <Folder Include="Common\" />
     <Folder Include="CQRS\" />
     <Folder Include="Common\Interfaces\" />
-    <Folder Include="Models\" />
+    <Folder Include="CQRS\TodoItems\" />
+    <Folder Include="CQRS\TodoItems\Commands\" />
+    <Folder Include="CQRS\TodoItems\Queries\" />
+    <Folder Include="CQRS\TodoItems\EventHandlers\" />
+    <Folder Include="CQRS\TodoItems\Commands\CreateTodoItem\" />
+    <Folder Include="CQRS\TodoItems\Commands\DeleteTodoItem\" />
+    <Folder Include="CQRS\TodoItems\Commands\UpdateTodoItem\" />
+    <Folder Include="Common\Mapping\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore" />
-    <None Remove="Models\" />
     <None Remove="MediatR" />
     <None Remove="Microsoft.Extensions.Configuration" />
     <None Remove="AutoMapper" />
@@ -23,6 +32,17 @@
     <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
     <None Remove="FluentValidation" />
     <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="CQRS\TodoItems\" />
+    <None Remove="CQRS\TodoItems\Commands\" />
+    <None Remove="CQRS\TodoItems\Queries\" />
+    <None Remove="CQRS\TodoItems\EventHandlers\" />
+    <None Remove="CQRS\TodoItems\Commands\CreateTodoItem\" />
+    <None Remove="CQRS\TodoItems\Commands\DeleteTodoItem\" />
+    <None Remove="CQRS\TodoItems\Commands\UpdateTodoItem\" />
+    <None Remove="Common\Mapping\" />
+    <None Remove="Common\Exceptions\" />
+    <None Remove="Common\Models\" />
+    <None Remove="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
