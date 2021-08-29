@@ -25,8 +25,7 @@ namespace Infrastructure
             // Add Services.
             services.AddScoped<IDomainEventService, DomainEventService>();
             services.AddTransient<IDateTimeService, DateTimeService>();
-
-            // TODO: Add identity service.
+            services.AddTransient<IIdentityService, IdentityService>();
 
             // Add Identity.
             services.AddDefaultIdentity<ApplicationUser>()
