@@ -35,8 +35,6 @@ namespace Infrastructure
             services.AddIdentityServer()
                     .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
 
-            services.AddTransient<IIdentityService, IdentityService>();
-
             services.AddAuthentication()
                     .AddIdentityServerJwt();
 

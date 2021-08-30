@@ -32,6 +32,7 @@
     <Folder Include="CQRS\TodoLists\Commands\PurgeTodoList\" />
     <Folder Include="CQRS\TodoLists\Commands\UpdateTodoList\" />
     <Folder Include="CQRS\TodoLists\Queries\GetTodos\" />
+    <Folder Include="CQRS\TodoItems\Commands\UpdateTodoItemDetails\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore" />
@@ -63,6 +64,7 @@
     <None Remove="CQRS\TodoLists\Commands\PurgeTodoListCommand\" />
     <None Remove="CQRS\TodoLists\Commands\UpdateTodoListCommand\" />
     <None Remove="CQRS\TodoLists\Queries\GetTodos\" />
+    <None Remove="CQRS\TodoItems\Commands\UpdateTodoItemDetails\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />

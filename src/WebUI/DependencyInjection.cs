@@ -18,7 +18,6 @@ namespace WebUI
         /// </summary>
         /// <param name="services">DI container.</param>
         /// <param name="configuration">Application configuration.</param>
-        /// <returns></returns>
         public static IServiceCollection AddWebUI(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddApplication(configuration);
