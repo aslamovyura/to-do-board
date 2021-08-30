@@ -24,6 +24,14 @@
     <Folder Include="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
     <Folder Include="Common\Behaviours\" />
     <Folder Include="Common\Security\" />
+    <Folder Include="CQRS\TodoLists\" />
+    <Folder Include="CQRS\TodoLists\Commands\" />
+    <Folder Include="CQRS\TodoLists\Queries\" />
+    <Folder Include="CQRS\TodoLists\Commands\CreateTodoList\" />
+    <Folder Include="CQRS\TodoLists\Commands\DeleteTodoList\" />
+    <Folder Include="CQRS\TodoLists\Commands\PurgeTodoList\" />
+    <Folder Include="CQRS\TodoLists\Commands\UpdateTodoList\" />
+    <Folder Include="CQRS\TodoLists\Queries\GetTodos\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore" />
@@ -47,6 +55,14 @@
     <None Remove="CQRS\TodoItems\Queries\GetTodoItemsWithPagination\" />
     <None Remove="Common\Behaviours\" />
     <None Remove="Common\Sequrity\" />
+    <None Remove="CQRS\TodoLists\" />
+    <None Remove="CQRS\TodoLists\Commands\" />
+    <None Remove="CQRS\TodoLists\Queries\" />
+    <None Remove="CQRS\TodoLists\Commands\CreateTodoList\" />
+    <None Remove="CQRS\TodoLists\Commands\DeleteTodoListCommand\" />
+    <None Remove="CQRS\TodoLists\Commands\PurgeTodoListCommand\" />
+    <None Remove="CQRS\TodoLists\Commands\UpdateTodoListCommand\" />
+    <None Remove="CQRS\TodoLists\Queries\GetTodos\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
