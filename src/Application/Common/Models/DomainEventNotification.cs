@@ -1,7 +1,7 @@
 ﻿using Domain.Common;
 using MediatR;
 
-namespace Application.Models
+namespace Application.Common.Models
 {
     /// <summary>
     /// Defines notification for domain events.

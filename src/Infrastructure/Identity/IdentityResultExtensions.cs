@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Application.Models;
+using Application.Common.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace Infrastructure.Identity

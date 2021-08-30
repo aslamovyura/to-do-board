@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Application.Models
+namespace Application.Common.Models
 {
     /// <summary>
     /// Processing result.
