@@ -7,7 +7,7 @@ using Application.CQRS.TodoItems.Commands.UpdateTodoItemDetails;
 using Application.CQRS.TodoItems.Queries.GetTodoItemsWithPagination;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebUI.Controllers
+namespace API.Controllers
 {
     [Authorize]
     public class TodoItemsController : ApiBaseController
