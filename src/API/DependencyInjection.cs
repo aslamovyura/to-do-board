@@ -7,14 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using WebUI.Services;
+using API.Services;
 
-namespace WebUI
+namespace API
 {
     public static class DependencyInjection
     {
         /// <summary>
-        /// Add services from WebUI layer to DI container.
+        /// Add services from API layer to DI container.
         /// </summary>
         /// <param name="services">DI container.</param>
         /// <param name="configuration">Application configuration.</param>

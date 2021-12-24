@@ -21,7 +21,7 @@ namespace Application.Common.Behaviours
         private readonly IIdentityService _identityService;
 
         /// <summary>
-        /// Initializes performance behaviour for incommint requests.
+        /// Initializes performance behaviour for incomming requests.
         /// </summary>
         /// <param name="logger">Logging service.</param>
         /// <param name="currentUserService">Service to manage current user.</param>

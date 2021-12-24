@@ -2,7 +2,7 @@
 using Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 
-namespace WebUI.Services
+namespace API.Services
 {
     /// <summary>
     /// Service to manage information about current user.

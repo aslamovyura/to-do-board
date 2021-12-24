@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace WebUI
+namespace API
 {
     public class Startup
     {
@@ -41,12 +41,6 @@ namespace WebUI
             app.UseIdentityServer();
             app.UseIdentityServer();
             app.UseAuthorization();
-
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllers();
-            //});
 
             app.UseEndpoints(endpoints =>
             {

@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace WebUI.Extensions
+namespace API.Extensions
 {
     /// <summary>
     /// Define extensions for <see cref="IHost"/> entities.

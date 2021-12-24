@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using WebUI.Extensions;
+using API.Extensions;
 
-namespace WebUI
+namespace API
 {
     public class Program
     {

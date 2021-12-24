@@ -6,7 +6,7 @@ using Application.CQRS.TodoLists.Commands.UpdateTodoList;
 using Application.CQRS.TodoLists.Queries.GetTodos;
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebUI.Controllers
+namespace API.Controllers
 {
     [Authorize]
     public class TodoListsController : ApiBaseController
